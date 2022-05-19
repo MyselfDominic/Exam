@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns = "http://www.w3.org/1999/xhtml" xmlns:th = "http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload new resume page</title>
+</head>
+<body>
+<h1>Welcome Please update your resume</h1>
+<div class="form">
+
+<form action="/submit" method="post" enctype="multipart/form-data" >
+    <input type="file" name="myfile" /> <br/><br/>
+    <input type="submit" value="Submit" />
+</form>
+<!--    <form action="/logout" method="post" enctype="multipart/form-data" >-->
+<!--    <div class="input-box">-->
+<!--        <input type="submit" name="sign-in" value="Logout">-->
+<!--    </div>-->
+<!--</form>-->
+
+</div>
+
+</body>
+</html>
